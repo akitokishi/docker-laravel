@@ -1,6 +1,6 @@
 version: "3.8"
 services:
-  app: quotes
+  app:
     build: ./infra/php
     volumes:
       - ./backend:/work
